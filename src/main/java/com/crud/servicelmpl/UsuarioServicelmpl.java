@@ -18,7 +18,7 @@ public class UsuarioServicelmpl implements UsuarioService {
 	
 	//metodos implementados 
 	
-	//
+
 	@Override
 	public List  <Usuario> findAllUsuario(){
 			return usuarioRepository.findAll(); 
